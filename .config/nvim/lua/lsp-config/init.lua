@@ -4,5 +4,6 @@ require("nvim-lsp-installer").setup {
 
 local lspconfig = require('lspconfig')
 
+lspconfig.pyright.setup {}
 lspconfig.sumneko_lua.setup {}
 lspconfig.rust_analyzer.setup {}
