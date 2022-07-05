@@ -61,6 +61,9 @@ return packer.startup(function(use)
   use "windwp/nvim-autopairs"
   use 'lewis6991/impatient.nvim'
   use 'kyazdani42/nvim-tree.lua'
+  use {'neoclide/coc.nvim', branch = 'release'}
+  use 'pearofducks/ansible-vim'
+  use "ahmedkhalf/project.nvim"
 
   if packer_bootstrap then
     require('packer').sync()
