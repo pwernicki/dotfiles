@@ -1,0 +1,1 @@
+fish/functions/_tide_sub_bug-report.fish
