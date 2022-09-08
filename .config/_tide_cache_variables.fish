@@ -1,1 +1,0 @@
-fish/functions/_tide_cache_variables.fish

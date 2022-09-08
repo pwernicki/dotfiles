@@ -1,1 +1,0 @@
-fish/functions/_tide_1_line_prompt.fish
