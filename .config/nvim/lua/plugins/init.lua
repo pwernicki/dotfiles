@@ -64,6 +64,8 @@ return packer.startup(function(use)
   use {'neoclide/coc.nvim', branch = 'release'}
   use 'pearofducks/ansible-vim'
   use "ahmedkhalf/project.nvim"
+  use "jose-elias-alvarez/null-ls.nvim"
+  use "ntpeters/vim-better-whitespace"
 
   if packer_bootstrap then
     require('packer').sync()

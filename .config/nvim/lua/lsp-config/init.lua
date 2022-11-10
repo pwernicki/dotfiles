@@ -13,9 +13,11 @@ lspconfig.sumneko_lua.setup {
     }
   }
 }
+
 lspconfig.pyright.setup {}
 lspconfig.rust_analyzer.setup {}
 lspconfig.yamlls.setup {}
 lspconfig.dockerls.setup {}
 lspconfig.terraformls.setup {}
 lspconfig.bashls.setup {}
+lspconfig.clangd.setup {}
