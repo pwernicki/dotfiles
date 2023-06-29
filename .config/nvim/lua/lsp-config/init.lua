@@ -4,14 +4,13 @@ require("nvim-lsp-installer").setup {
 
 local lspconfig = require('lspconfig')
 
-lspconfig.sumneko_lua.setup {
-  settings = {
+lspconfig.lua_ls.setup {
+  lua_ls = {
     Lua = {
-      diagnostics = {
-        globals = { 'vim' }
-      }
-    }
-  }
+      workspace = { checkThirdParty = false },
+      telemetry = { enable = false },
+    },
+  },
 }
 
 lspconfig.pyright.setup {}
@@ -21,3 +20,4 @@ lspconfig.dockerls.setup {}
 lspconfig.terraformls.setup {}
 lspconfig.bashls.setup {}
 lspconfig.clangd.setup {}
+lspconfig.ansiblels.setup {}

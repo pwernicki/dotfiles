@@ -16,4 +16,6 @@ require ('null-ls')
 
 vim.cmd("colorscheme nightfox")
 vim.cmd("au BufRead,BufNewFile */playbooks/*.yml set filetype=yaml.ansible")
+vim.cmd("au BufRead,BufNewFile */tasks/*.yml set filetype=yaml.ansible")
+vim.cmd("au BufRead,BufNewFile */roles/*.yml set filetype=yaml.ansible")
 vim.cmd("let g:coc_filetype_map = { 'yaml.ansible': 'ansible',}")
