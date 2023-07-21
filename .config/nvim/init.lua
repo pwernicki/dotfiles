@@ -13,6 +13,7 @@ require ('impatient-config')
 require ('nvim-tree-config')
 require ('project-config')
 require ('null-ls')
+require ('mason-config')
 
 vim.cmd("colorscheme nightfox")
 vim.cmd("au BufRead,BufNewFile */playbooks/*.yml set filetype=yaml.ansible")

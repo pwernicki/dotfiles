@@ -57,6 +57,12 @@ return packer.startup(function(use)
     requires = { {'nvim-lua/plenary.nvim'} }
   }
 
+  use {
+    "williamboman/mason.nvim",
+    "williamboman/mason-lspconfig.nvim",
+    run = ":MasonUpdate"
+  }
+
   use 'goolord/alpha-nvim'
   use "windwp/nvim-autopairs"
   use 'lewis6991/impatient.nvim'
